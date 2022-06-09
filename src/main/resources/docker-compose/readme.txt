@@ -17,6 +17,3 @@ curl --location --request POST 'http://localhost:8080/docker-project/employee' \
 curl --location --request GET 'http://localhost:8080/docker-project/employeeList'
 
 Obviamente por medio de un workbench pueden acceder a la bd y ver allí la información.
-
-La carpeta db-mysql-data es el volumen del docker, no es necesaria copiarla, se va a crear la primera vez que se ejecute
-el docker-compose.
